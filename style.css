@@ -1,0 +1,348 @@
+.box{
+    border:10px solid black;
+}
+
+.ml-10{
+    margin-left:25px;
+}
+
+.navbar{
+    width:100%;
+    z-index:1;
+    font-size: 20px;
+}
+
+#navbarmenu {
+    font-size: 20px;
+}
+
+.navbar .navbar-brand {
+    color:#9ee7fc;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+    color:#9ee7fc;
+}
+
+.navbar .navbar-toggler .navbar-toggler-item {
+    color: white;
+}
+
+.hero {
+    color: white;  
+    width: 100%;
+    height: 700px;
+    background: linear-gradient(rgba(36, 36, 36, 0.5), rgba(36, 36, 36, 0.5)),
+        url("Background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.text-center {
+    text-align:center
+    
+}
+
+.logoMain {
+    width: 30%;
+}
+
+.imageSize{
+    width:50%;
+}
+
+.centerText {
+    padding-top:10rem;
+    padding-bottom:10rem;
+}
+
+.roundedBorder {
+    border-radius: 20px;
+}
+
+.footer {
+    background-color: black;
+    color: #9ee7fc;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* About Section */
+
+/* our Mission Section */
+.mission {
+    color:white;
+    width: 100%;
+    height: 600px;
+    background: linear-gradient(rgba(36, 36, 36, .7), rgba(36, 36, 36, .75)),
+        url("mission.jpg");
+    /*display:flex;
+    justify-content: center;
+    align-items:center;*/
+
+}
+
+.text-pad{
+    padding-top:225px;
+}
+
+.nav-pad{
+    padding-top:50px;
+}
+
+.text {
+    font-size: 20px;
+}
+
+
+.portrait{
+    position:relative;
+    display:block;
+    width: 300px;
+    height:300px;
+    border-radius: 50%;
+    transition: .5s ease;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.img-container{
+position:relative;
+display:inline-block;
+margin-left:25px;
+
+}
+
+.img-container img{
+    display:block;
+}
+
+   .img-container .overlay{
+    position:absolute;
+    border-radius: 50%;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:rgb(0,170,170);
+    opacity:0;
+    transition:opacity 500ms ease-in-out;
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+  .img-container:hover .overlay{
+    opacity:.925;
+  }
+
+  .overlay span{
+    position:absolute;
+    top:50%;
+    left:50%;
+    padding-left:20px;
+    transform:translate(-50%,-50%);
+    color:#fff;
+  }
+
+
+.servicesHeader {
+    width: auto;
+    height: auto;
+    padding-top: 11px;
+    text-align: center;
+    font-family: EuclidCircular,sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #ddd;
+    font-size: 75px;
+}
+
+.title {
+    font-family: EuclidCircular, sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 550;
+    display: block;
+    text-align: center;
+    color:dimgray;
+    padding-top:100px;
+}
+
+.servicesText {
+    text-align: center;
+    font-size: 20px;
+    font-family: EuclidCircular, sans-serif;
+    max-width: 600px;
+    margin: 0 auto 15px;
+    width: 60%;
+    padding: 10px;
+}
+
+.footLink li a{
+    text-decoration:none;
+
+}
+
+.centerTextHorizontal {
+    text-align: center;
+}
+
+.servicesImage {
+    width:200px;
+    height:auto;
+    border-radius:10%;
+    
+}
+
+.servicesImageSizing {
+    width: 550px;
+    height: auto;
+}
+
+.faq-image{
+    height:auto;
+    width:400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.servicesImageLarge {
+    width:100%;
+    height: auto;
+    margin-left:auto;
+    margin-right:auto;
+    display: block;
+}
+
+.servicesPaddingTop {
+    padding-top: 75px;
+}
+
+.contact{
+    background: -webkit-linear-gradient(left, #9ebbdf, #7cc5da);
+}
+.contact-form{
+    background: #fff;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 70%;
+}
+.contact-form .form-control{
+    border-radius:1rem;
+}
+.contact-image{
+    text-align: center;
+}
+.contact-image img{
+    border-radius: 6rem;
+    width: 11%;
+    margin-top: -3%;
+    transform: rotate(29deg);
+}
+.contact-form form{
+    padding: 14%;
+}
+.contact-form form .row{
+    margin-bottom: -7%;
+}
+.contact-form h3{
+    margin-bottom: 8%;
+    margin-top: -10%;
+    text-align: center;
+    color: #0062cc;
+}
+.contact-form .btnContact {
+    width: 50%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    background: #dc3545;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    text-align: left
+}
+
+.btnContactSubmit {
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    color: #fff;
+    background-color: #0062cc;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+}
+
+h2 {
+    font-family: Arial, Verdana;
+    font-weight: 800;
+    font-size: 2.5rem;
+    color: #091f2f;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.accordion-section .panel-default > .panel-heading {
+    border: 0;
+    background: #f4f4f4;
+    padding: 0;
+}
+
+.accordion-section .panel-default .panel-title a {
+    display: block;
+    font-style: italic;
+    font-size: 1.5rem;
+}
+
+.accordion-section .panel-default .panel-title a:after {
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-size: 3rem;
+    content: "\f106";
+    color: #1f7de2;
+    float: right;
+    margin-top: -12px;
+}
+
+.accordion-section .panel-default .panel-title a.collapsed:after {
+    content: "\f107";
+}
+
+.accordion-section .panel-default .panel-body {
+    font-size: 1.2rem;
+}
+
+.arrow{
+    padding-top:30px;
+    width:5%;
+    height:5%;
+}
+
+.hover-text{
+    display:inline-block;
+    font-size: 12px;
+    font-family:sans-serif;
+}
+
